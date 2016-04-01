@@ -257,6 +257,7 @@ static NSDictionary* config;
 }
 
 - (void) writeToOutput: (NSString*)message {
+    /*
     NSAssert(_output, @"Output isn't open");
     NSData* data = [message dataUsingEncoding: NSUTF8StringEncoding];
     NSInteger written = [_output write: data.bytes maxLength: data.length];
@@ -265,6 +266,7 @@ static NSDictionary* config;
     else
         NSAssert(written == data.length, @"Only wrote %ld bytes of %lu", (long)written, (unsigned long)data.length);
     [_output write: (const uint8_t*)"\n" maxLength: 1];
+     */
 }
 
 

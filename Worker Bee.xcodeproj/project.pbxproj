@@ -100,7 +100,112 @@
 		27E9406B195508BE00A9732E /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 27E9406A195508BE00A9732E /* config.json */; };
 		9396C7A11AF2AD7E00C0EF93 /* Test31_PullReplicationHighRevs.m in Sources */ = {isa = PBXBuildFile; fileRef = 9396C7A01AF2AD7E00C0EF93 /* Test31_PullReplicationHighRevs.m */; };
 		9396C7A21AF2D46500C0EF93 /* Test31_PullReplicationHighRevs.m in Sources */ = {isa = PBXBuildFile; fileRef = 9396C7A01AF2AD7E00C0EF93 /* Test31_PullReplicationHighRevs.m */; };
+		BFAADF541C4CDBD4004CCF66 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAADF521C4CDBD4004CCF66 /* Interface.storyboard */; };
+		BFAADF561C4CDBD4004CCF66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAADF551C4CDBD4004CCF66 /* Assets.xcassets */; };
+		BFAADF5D1C4CDBD4004CCF66 /* HeadlessBee-WatchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BFAADF5C1C4CDBD4004CCF66 /* HeadlessBee-WatchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BFAADF651C4CDBD4004CCF66 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAADF641C4CDBD4004CCF66 /* InterfaceController.m */; };
+		BFAADF681C4CDBD4004CCF66 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAADF671C4CDBD4004CCF66 /* ExtensionDelegate.m */; };
+		BFAADF6B1C4CDBD4004CCF66 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAADF6A1C4CDBD4004CCF66 /* NotificationController.m */; };
+		BFAADF6D1C4CDBD4004CCF66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAADF6C1C4CDBD4004CCF66 /* Assets.xcassets */; };
+		BFAADF711C4CDBD4004CCF66 /* HeadlessBee-WatchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BFAADF501C4CDBD4004CCF66 /* HeadlessBee-WatchOS.app */; };
+		BFB66EFE1C4998BE0046FF6E /* HeadlessBee_AppletVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB66EFD1C4998BE0046FF6E /* HeadlessBee_AppletVTests.m */; };
+		BFB66F091C4998BF0046FF6E /* HeadlessBee_AppletVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB66F081C4998BF0046FF6E /* HeadlessBee_AppletVUITests.m */; };
+		BFB66F141C499B680046FF6E /* HeadlessBeeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E940461953A74000A9732E /* HeadlessBeeAppDelegate.m */; };
+		BFB66F151C499B680046FF6E /* BeeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CB6569143B9B7E00EEA1F2 /* BeeTest.m */; };
+		BFB66F161C499B680046FF6E /* BeeCouchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A07487143CCDCD0043BEB6 /* BeeCouchTest.m */; };
+		BFB66F171C499B680046FF6E /* SavedTestRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 270EA1EC1443C1AD0000AEA9 /* SavedTestRun.m */; };
+		BFB66F181C499B680046FF6E /* BeeCouchMultipleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A123D4919788E7F00FDE0C3 /* BeeCouchMultipleTest.m */; };
+		BFB66F191C499B680046FF6E /* Test24_PullReplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43D47F1A38BB8200DBDAAC /* Test24_PullReplication.m */; };
+		BFB66F1A1C499B680046FF6E /* Test25_PushReplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43D4811A38BB8200DBDAAC /* Test25_PushReplication.m */; };
+		BFB66F1B1C499B680046FF6E /* Test26_PushReplicateWithAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43D4831A38BB8200DBDAAC /* Test26_PushReplicateWithAttachment.m */; };
+		BFB66F1C1C499B680046FF6E /* Test28_KeySizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43D4851A38BB8200DBDAAC /* Test28_KeySizes.m */; };
+		BFB66F1D1C499B680046FF6E /* Test29_AllDocQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43D4871A38BB8200DBDAAC /* Test29_AllDocQuery.m */; };
+		BFB66F1E1C499B680046FF6E /* Test30_LiveQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43D4891A38BB8200DBDAAC /* Test30_LiveQuery.m */; };
+		BFB66F1F1C499B680046FF6E /* Test31_PullReplicationHighRevs.m in Sources */ = {isa = PBXBuildFile; fileRef = 9396C7A01AF2AD7E00C0EF93 /* Test31_PullReplicationHighRevs.m */; };
+		BFB66F201C499B680046FF6E /* Test1_CreateDocs.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A123249198AB539003262ED /* Test1_CreateDocs.m */; };
+		BFB66F211C499B680046FF6E /* Test2_CreateDocsUnoptimizedWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A12324B198AB539003262ED /* Test2_CreateDocsUnoptimizedWay.m */; };
+		BFB66F221C499B680046FF6E /* Test3_CreateDocsWithAttachments.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A12324D198AB539003262ED /* Test3_CreateDocsWithAttachments.m */; };
+		BFB66F231C499B680046FF6E /* Test8_DocRevisions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A12324F198AB539003262ED /* Test8_DocRevisions.m */; };
+		BFB66F241C499B680046FF6E /* Test10_DeleteDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A123253198AB539003262ED /* Test10_DeleteDB.m */; };
+		BFB66F251C499B680046FF6E /* Test11_DeleteDocs.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A123255198AB539003262ED /* Test11_DeleteDocs.m */; };
+		BFB66F261C499B680046FF6E /* Test22_Query.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A123241198AB524003262ED /* Test22_Query.m */; };
+		BFB66F271C499B680046FF6E /* Test23_ReduceQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A123243198AB524003262ED /* Test23_ReduceQuery.m */; };
+		BFB66F281C499B680046FF6E /* Test21_Index.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1232171982F263003262ED /* Test21_Index.m */; };
+		BFB66F2A1C499B7D0046FF6E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB66F291C499B7D0046FF6E /* libz.tbd */; };
+		BFB66F2C1C499B850046FF6E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB66F2B1C499B850046FF6E /* Security.framework */; };
+		BFB66F2E1C499B900046FF6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB66F2D1C499B900046FF6E /* CoreGraphics.framework */; };
+		BFB66F301C499BB30046FF6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB66F2F1C499BB30046FF6E /* Foundation.framework */; };
+		BFB66F321C499BBD0046FF6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB66F311C499BBD0046FF6E /* UIKit.framework */; };
+		BFB66F341C499BC90046FF6E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB66F331C499BC90046FF6E /* libsqlite3.tbd */; };
+		BFB66F361C499BD80046FF6E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB66F351C499BD80046FF6E /* SystemConfiguration.framework */; };
+		BFB66F381C499BE20046FF6E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB66F371C499BE20046FF6E /* CFNetwork.framework */; };
+		BFB66F3A1C499BF20046FF6E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB66F391C499BF20046FF6E /* libc++.tbd */; };
+		BFB66F471C499D040046FF6E /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB66F461C499D040046FF6E /* CouchbaseLite.framework */; };
+		BFB66F481C499D040046FF6E /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB66F461C499D040046FF6E /* CouchbaseLite.framework */; };
+		BFB66F491C499D040046FF6E /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB66F461C499D040046FF6E /* CouchbaseLite.framework */; };
+		BFB66F4B1C499D190046FF6E /* CouchbaseLiteListener.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB66F4A1C499D190046FF6E /* CouchbaseLiteListener.framework */; };
+		BFB66F4C1C499D190046FF6E /* CouchbaseLiteListener.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB66F4A1C499D190046FF6E /* CouchbaseLiteListener.framework */; };
+		BFB66F4D1C499D190046FF6E /* CouchbaseLiteListener.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB66F4A1C499D190046FF6E /* CouchbaseLiteListener.framework */; };
+		BFB66F4E1C499E6E0046FF6E /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 27E9406A195508BE00A9732E /* config.json */; };
+		BFB66F4F1C499E840046FF6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB66EEF1C4998BE0046FF6E /* Main.storyboard */; };
+		BFB66F501C499E840046FF6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB66EF21C4998BE0046FF6E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFAADF5E1C4CDBD4004CCF66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27B28F9814314FB800B86F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFAADF5B1C4CDBD4004CCF66;
+			remoteInfo = "HeadlessBee-WatchOS Extension";
+		};
+		BFAADF6F1C4CDBD4004CCF66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27B28F9814314FB800B86F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFAADF4F1C4CDBD4004CCF66;
+			remoteInfo = "HeadlessBee-WatchOS";
+		};
+		BFB66EFA1C4998BE0046FF6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27B28F9814314FB800B86F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB66EE31C4998BE0046FF6E;
+			remoteInfo = "HeadlessBee-AppletV";
+		};
+		BFB66F051C4998BF0046FF6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27B28F9814314FB800B86F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB66EE31C4998BE0046FF6E;
+			remoteInfo = "HeadlessBee-AppletV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFAADF751C4CDBD4004CCF66 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BFAADF5D1C4CDBD4004CCF66 /* HeadlessBee-WatchOS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAADF791C4CDBD4004CCF66 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BFAADF711C4CDBD4004CCF66 /* HeadlessBee-WatchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0A1232161982F263003262ED /* Test21_Index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test21_Index.h; sourceTree = "<group>"; };
@@ -189,6 +294,46 @@
 		27E9406A195508BE00A9732E /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
 		9396C79F1AF2AD7E00C0EF93 /* Test31_PullReplicationHighRevs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test31_PullReplicationHighRevs.h; sourceTree = "<group>"; };
 		9396C7A01AF2AD7E00C0EF93 /* Test31_PullReplicationHighRevs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test31_PullReplicationHighRevs.m; sourceTree = "<group>"; };
+		BFAADF501C4CDBD4004CCF66 /* HeadlessBee-WatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeadlessBee-WatchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAADF531C4CDBD4004CCF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		BFAADF551C4CDBD4004CCF66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFAADF571C4CDBD4004CCF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAADF5C1C4CDBD4004CCF66 /* HeadlessBee-WatchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HeadlessBee-WatchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAADF621C4CDBD4004CCF66 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		BFAADF631C4CDBD4004CCF66 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		BFAADF641C4CDBD4004CCF66 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		BFAADF661C4CDBD4004CCF66 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		BFAADF671C4CDBD4004CCF66 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		BFAADF691C4CDBD4004CCF66 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		BFAADF6A1C4CDBD4004CCF66 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		BFAADF6C1C4CDBD4004CCF66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFAADF6E1C4CDBD4004CCF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB66EE41C4998BE0046FF6E /* HeadlessBee-AppletV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeadlessBee-AppletV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB66EE71C4998BE0046FF6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFB66EE91C4998BE0046FF6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFB66EEA1C4998BE0046FF6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFB66EEC1C4998BE0046FF6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFB66EED1C4998BE0046FF6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFB66EF01C4998BE0046FF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFB66EF21C4998BE0046FF6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFB66EF41C4998BE0046FF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB66EF91C4998BE0046FF6E /* HeadlessBee-AppletVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HeadlessBee-AppletVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB66EFD1C4998BE0046FF6E /* HeadlessBee_AppletVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadlessBee_AppletVTests.m; sourceTree = "<group>"; };
+		BFB66EFF1C4998BE0046FF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB66F041C4998BE0046FF6E /* HeadlessBee-AppletVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HeadlessBee-AppletVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB66F081C4998BF0046FF6E /* HeadlessBee_AppletVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadlessBee_AppletVUITests.m; sourceTree = "<group>"; };
+		BFB66F0A1C4998BF0046FF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB66F291C499B7D0046FF6E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.1.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		BFB66F2B1C499B850046FF6E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		BFB66F2D1C499B900046FF6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		BFB66F2F1C499BB30046FF6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BFB66F311C499BBD0046FF6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BFB66F331C499BC90046FF6E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.1.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
+		BFB66F351C499BD80046FF6E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		BFB66F371C499BE20046FF6E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.1.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		BFB66F391C499BF20046FF6E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.1.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		BFB66F461C499D040046FF6E /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchbaseLite.framework; path = Frameworks/CouchbaseLite.framework; sourceTree = "<group>"; };
+		BFB66F4A1C499D190046FF6E /* CouchbaseLiteListener.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchbaseLiteListener.framework; path = Frameworks/CouchbaseLiteListener.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +343,7 @@
 			files = (
 				0A4D99241A65F1510067C09D /* libc++.dylib in Frameworks */,
 				277730891953A5E6006BB191 /* CFNetwork.framework in Frameworks */,
+				BFB66F4C1C499D190046FF6E /* CouchbaseLiteListener.framework in Frameworks */,
 				2777308A1953A5E6006BB191 /* SystemConfiguration.framework in Frameworks */,
 				2777308B1953A5E6006BB191 /* libsqlite3.dylib in Frameworks */,
 				2777308C1953A5E6006BB191 /* UIKit.framework in Frameworks */,
@@ -206,6 +352,7 @@
 				2777308F1953A5E6006BB191 /* CouchbaseLiteListener.framework in Frameworks */,
 				277730901953A5E6006BB191 /* CoreGraphics.framework in Frameworks */,
 				277730911953A5E6006BB191 /* Security.framework in Frameworks */,
+				BFB66F481C499D040046FF6E /* CouchbaseLite.framework in Frameworks */,
 				277730921953A5E6006BB191 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +363,7 @@
 			files = (
 				0A4D99251A65F1590067C09D /* libc++.dylib in Frameworks */,
 				2728F63617B3045400E929FD /* CFNetwork.framework in Frameworks */,
+				BFB66F4B1C499D190046FF6E /* CouchbaseLiteListener.framework in Frameworks */,
 				279B52FA159D367E003C95F9 /* SystemConfiguration.framework in Frameworks */,
 				279B52F8159D3675003C95F9 /* libsqlite3.dylib in Frameworks */,
 				27B28FA614314FB800B86F18 /* UIKit.framework in Frameworks */,
@@ -224,7 +372,47 @@
 				270BC8DB18D76B6A005EF242 /* CouchbaseLiteListener.framework in Frameworks */,
 				27B28FAA14314FB800B86F18 /* CoreGraphics.framework in Frameworks */,
 				27B28FDF1431549200B86F18 /* Security.framework in Frameworks */,
+				BFB66F471C499D040046FF6E /* CouchbaseLite.framework in Frameworks */,
 				27B28FE11431549E00B86F18 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAADF591C4CDBD4004CCF66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB66EE11C4998BE0046FF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB66F491C499D040046FF6E /* CouchbaseLite.framework in Frameworks */,
+				BFB66F3A1C499BF20046FF6E /* libc++.tbd in Frameworks */,
+				BFB66F381C499BE20046FF6E /* CFNetwork.framework in Frameworks */,
+				BFB66F361C499BD80046FF6E /* SystemConfiguration.framework in Frameworks */,
+				BFB66F341C499BC90046FF6E /* libsqlite3.tbd in Frameworks */,
+				BFB66F4D1C499D190046FF6E /* CouchbaseLiteListener.framework in Frameworks */,
+				BFB66F321C499BBD0046FF6E /* UIKit.framework in Frameworks */,
+				BFB66F301C499BB30046FF6E /* Foundation.framework in Frameworks */,
+				BFB66F2E1C499B900046FF6E /* CoreGraphics.framework in Frameworks */,
+				BFB66F2C1C499B850046FF6E /* Security.framework in Frameworks */,
+				BFB66F2A1C499B7D0046FF6E /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB66EF61C4998BE0046FF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB66F011C4998BE0046FF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +440,11 @@
 				27B28FAB14314FB800B86F18 /* App */,
 				27CB656E143B9EC500EEA1F2 /* Tests */,
 				27A37420143E5E85005A577D /* Resources */,
+				BFB66EE51C4998BE0046FF6E /* HeadlessBee-AppletV */,
+				BFB66EFC1C4998BE0046FF6E /* HeadlessBee-AppletVTests */,
+				BFB66F071C4998BF0046FF6E /* HeadlessBee-AppletVUITests */,
+				BFAADF511C4CDBD4004CCF66 /* HeadlessBee-WatchOS */,
+				BFAADF601C4CDBD4004CCF66 /* HeadlessBee-WatchOS Extension */,
 				27B28FA414314FB800B86F18 /* Frameworks */,
 				27B28FA214314FB800B86F18 /* Products */,
 			);
@@ -262,6 +455,11 @@
 			children = (
 				27B28FA114314FB800B86F18 /* Worker Bee.app */,
 				277730A21953A5E6006BB191 /* HeadlessBee.app */,
+				BFB66EE41C4998BE0046FF6E /* HeadlessBee-AppletV.app */,
+				BFB66EF91C4998BE0046FF6E /* HeadlessBee-AppletVTests.xctest */,
+				BFB66F041C4998BE0046FF6E /* HeadlessBee-AppletVUITests.xctest */,
+				BFAADF501C4CDBD4004CCF66 /* HeadlessBee-WatchOS.app */,
+				BFAADF5C1C4CDBD4004CCF66 /* HeadlessBee-WatchOS Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,6 +467,17 @@
 		27B28FA414314FB800B86F18 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFB66F4A1C499D190046FF6E /* CouchbaseLiteListener.framework */,
+				BFB66F461C499D040046FF6E /* CouchbaseLite.framework */,
+				BFB66F391C499BF20046FF6E /* libc++.tbd */,
+				BFB66F371C499BE20046FF6E /* CFNetwork.framework */,
+				BFB66F351C499BD80046FF6E /* SystemConfiguration.framework */,
+				BFB66F331C499BC90046FF6E /* libsqlite3.tbd */,
+				BFB66F311C499BBD0046FF6E /* UIKit.framework */,
+				BFB66F2F1C499BB30046FF6E /* Foundation.framework */,
+				BFB66F2D1C499B900046FF6E /* CoreGraphics.framework */,
+				BFB66F2B1C499B850046FF6E /* Security.framework */,
+				BFB66F291C499B7D0046FF6E /* libz.tbd */,
 				0A4D99231A65F1510067C09D /* libc++.dylib */,
 				270BC8D818D76B6A005EF242 /* CouchbaseLite.framework */,
 				270BC8D918D76B6A005EF242 /* CouchbaseLiteListener.framework */,
@@ -371,6 +580,81 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
+		BFAADF511C4CDBD4004CCF66 /* HeadlessBee-WatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				BFAADF521C4CDBD4004CCF66 /* Interface.storyboard */,
+				BFAADF551C4CDBD4004CCF66 /* Assets.xcassets */,
+				BFAADF571C4CDBD4004CCF66 /* Info.plist */,
+			);
+			path = "HeadlessBee-WatchOS";
+			sourceTree = "<group>";
+		};
+		BFAADF601C4CDBD4004CCF66 /* HeadlessBee-WatchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BFAADF631C4CDBD4004CCF66 /* InterfaceController.h */,
+				BFAADF641C4CDBD4004CCF66 /* InterfaceController.m */,
+				BFAADF661C4CDBD4004CCF66 /* ExtensionDelegate.h */,
+				BFAADF671C4CDBD4004CCF66 /* ExtensionDelegate.m */,
+				BFAADF691C4CDBD4004CCF66 /* NotificationController.h */,
+				BFAADF6A1C4CDBD4004CCF66 /* NotificationController.m */,
+				BFAADF6C1C4CDBD4004CCF66 /* Assets.xcassets */,
+				BFAADF6E1C4CDBD4004CCF66 /* Info.plist */,
+				BFAADF611C4CDBD4004CCF66 /* Supporting Files */,
+			);
+			path = "HeadlessBee-WatchOS Extension";
+			sourceTree = "<group>";
+		};
+		BFAADF611C4CDBD4004CCF66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFAADF621C4CDBD4004CCF66 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFB66EE51C4998BE0046FF6E /* HeadlessBee-AppletV */ = {
+			isa = PBXGroup;
+			children = (
+				BFB66EE91C4998BE0046FF6E /* AppDelegate.h */,
+				BFB66EEA1C4998BE0046FF6E /* AppDelegate.m */,
+				BFB66EEC1C4998BE0046FF6E /* ViewController.h */,
+				BFB66EED1C4998BE0046FF6E /* ViewController.m */,
+				BFB66EEF1C4998BE0046FF6E /* Main.storyboard */,
+				BFB66EF21C4998BE0046FF6E /* Assets.xcassets */,
+				BFB66EF41C4998BE0046FF6E /* Info.plist */,
+				BFB66EE61C4998BE0046FF6E /* Supporting Files */,
+			);
+			path = "HeadlessBee-AppletV";
+			sourceTree = "<group>";
+		};
+		BFB66EE61C4998BE0046FF6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFB66EE71C4998BE0046FF6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFB66EFC1C4998BE0046FF6E /* HeadlessBee-AppletVTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB66EFD1C4998BE0046FF6E /* HeadlessBee_AppletVTests.m */,
+				BFB66EFF1C4998BE0046FF6E /* Info.plist */,
+			);
+			path = "HeadlessBee-AppletVTests";
+			sourceTree = "<group>";
+		};
+		BFB66F071C4998BF0046FF6E /* HeadlessBee-AppletVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB66F081C4998BF0046FF6E /* HeadlessBee_AppletVUITests.m */,
+				BFB66F0A1C4998BF0046FF6E /* Info.plist */,
+			);
+			path = "HeadlessBee-AppletVUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -398,15 +682,104 @@
 				27B28F9D14314FB800B86F18 /* Sources */,
 				27B28F9E14314FB800B86F18 /* Frameworks */,
 				27B28F9F14314FB800B86F18 /* Resources */,
+				BFAADF791C4CDBD4004CCF66 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BFAADF701C4CDBD4004CCF66 /* PBXTargetDependency */,
 			);
 			name = "Worker Bee";
 			productName = "Empty App";
 			productReference = 27B28FA114314FB800B86F18 /* Worker Bee.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BFAADF4F1C4CDBD4004CCF66 /* HeadlessBee-WatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAADF761C4CDBD4004CCF66 /* Build configuration list for PBXNativeTarget "HeadlessBee-WatchOS" */;
+			buildPhases = (
+				BFAADF4E1C4CDBD4004CCF66 /* Resources */,
+				BFAADF751C4CDBD4004CCF66 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFAADF5F1C4CDBD4004CCF66 /* PBXTargetDependency */,
+			);
+			name = "HeadlessBee-WatchOS";
+			productName = "HeadlessBee-WatchOS";
+			productReference = BFAADF501C4CDBD4004CCF66 /* HeadlessBee-WatchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		BFAADF5B1C4CDBD4004CCF66 /* HeadlessBee-WatchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAADF721C4CDBD4004CCF66 /* Build configuration list for PBXNativeTarget "HeadlessBee-WatchOS Extension" */;
+			buildPhases = (
+				BFAADF581C4CDBD4004CCF66 /* Sources */,
+				BFAADF591C4CDBD4004CCF66 /* Frameworks */,
+				BFAADF5A1C4CDBD4004CCF66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HeadlessBee-WatchOS Extension";
+			productName = "HeadlessBee-WatchOS Extension";
+			productReference = BFAADF5C1C4CDBD4004CCF66 /* HeadlessBee-WatchOS Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		BFB66EE31C4998BE0046FF6E /* HeadlessBee-AppletV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB66F111C4998BF0046FF6E /* Build configuration list for PBXNativeTarget "HeadlessBee-AppletV" */;
+			buildPhases = (
+				BFB66EE01C4998BE0046FF6E /* Sources */,
+				BFB66EE11C4998BE0046FF6E /* Frameworks */,
+				BFB66EE21C4998BE0046FF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HeadlessBee-AppletV";
+			productName = "HeadlessBee-AppletV";
+			productReference = BFB66EE41C4998BE0046FF6E /* HeadlessBee-AppletV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFB66EF81C4998BE0046FF6E /* HeadlessBee-AppletVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB66F121C4998BF0046FF6E /* Build configuration list for PBXNativeTarget "HeadlessBee-AppletVTests" */;
+			buildPhases = (
+				BFB66EF51C4998BE0046FF6E /* Sources */,
+				BFB66EF61C4998BE0046FF6E /* Frameworks */,
+				BFB66EF71C4998BE0046FF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB66EFB1C4998BE0046FF6E /* PBXTargetDependency */,
+			);
+			name = "HeadlessBee-AppletVTests";
+			productName = "HeadlessBee-AppletVTests";
+			productReference = BFB66EF91C4998BE0046FF6E /* HeadlessBee-AppletVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFB66F031C4998BE0046FF6E /* HeadlessBee-AppletVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB66F131C4998BF0046FF6E /* Build configuration list for PBXNativeTarget "HeadlessBee-AppletVUITests" */;
+			buildPhases = (
+				BFB66F001C4998BE0046FF6E /* Sources */,
+				BFB66F011C4998BE0046FF6E /* Frameworks */,
+				BFB66F021C4998BE0046FF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB66F061C4998BF0046FF6E /* PBXTargetDependency */,
+			);
+			name = "HeadlessBee-AppletVUITests";
+			productName = "HeadlessBee-AppletVUITests";
+			productReference = BFB66F041C4998BE0046FF6E /* HeadlessBee-AppletVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -423,6 +796,25 @@
 					27B28FA014314FB800B86F18 = {
 						DevelopmentTeam = N2Q372V7W2;
 					};
+					BFAADF4F1C4CDBD4004CCF66 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = N2Q372V7W2;
+					};
+					BFAADF5B1C4CDBD4004CCF66 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BFB66EE31C4998BE0046FF6E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = N2Q372V7W2;
+					};
+					BFB66EF81C4998BE0046FF6E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BFB66EE31C4998BE0046FF6E;
+					};
+					BFB66F031C4998BE0046FF6E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BFB66EE31C4998BE0046FF6E;
+					};
 				};
 			};
 			buildConfigurationList = 27B28F9B14314FB800B86F18 /* Build configuration list for PBXProject "Worker Bee" */;
@@ -431,6 +823,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 27B28F9614314FB800B86F18;
 			productRefGroup = 27B28FA214314FB800B86F18 /* Products */;
@@ -439,6 +832,11 @@
 			targets = (
 				27B28FA014314FB800B86F18 /* Worker Bee */,
 				277730721953A5E6006BB191 /* HeadlessBee */,
+				BFB66EE31C4998BE0046FF6E /* HeadlessBee-AppletV */,
+				BFB66EF81C4998BE0046FF6E /* HeadlessBee-AppletVTests */,
+				BFB66F031C4998BE0046FF6E /* HeadlessBee-AppletVUITests */,
+				BFAADF4F1C4CDBD4004CCF66 /* HeadlessBee-WatchOS */,
+				BFAADF5B1C4CDBD4004CCF66 /* HeadlessBee-WatchOS Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -479,6 +877,47 @@
 				27A37424143E5E85005A577D /* Icon@2x.png in Resources */,
 				27B678B518049FFD00B06D11 /* Default@2x.png in Resources */,
 				27170A531445076C0049E6E4 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAADF4E1C4CDBD4004CCF66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAADF561C4CDBD4004CCF66 /* Assets.xcassets in Resources */,
+				BFAADF541C4CDBD4004CCF66 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAADF5A1C4CDBD4004CCF66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAADF6D1C4CDBD4004CCF66 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB66EE21C4998BE0046FF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB66F4F1C499E840046FF6E /* Main.storyboard in Resources */,
+				BFB66F501C499E840046FF6E /* Assets.xcassets in Resources */,
+				BFB66F4E1C499E6E0046FF6E /* config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB66EF71C4998BE0046FF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB66F021C4998BE0046FF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +985,84 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFAADF581C4CDBD4004CCF66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAADF681C4CDBD4004CCF66 /* ExtensionDelegate.m in Sources */,
+				BFAADF651C4CDBD4004CCF66 /* InterfaceController.m in Sources */,
+				BFAADF6B1C4CDBD4004CCF66 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB66EE01C4998BE0046FF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB66F141C499B680046FF6E /* HeadlessBeeAppDelegate.m in Sources */,
+				BFB66F151C499B680046FF6E /* BeeTest.m in Sources */,
+				BFB66F161C499B680046FF6E /* BeeCouchTest.m in Sources */,
+				BFB66F171C499B680046FF6E /* SavedTestRun.m in Sources */,
+				BFB66F181C499B680046FF6E /* BeeCouchMultipleTest.m in Sources */,
+				BFB66F191C499B680046FF6E /* Test24_PullReplication.m in Sources */,
+				BFB66F1A1C499B680046FF6E /* Test25_PushReplication.m in Sources */,
+				BFB66F1B1C499B680046FF6E /* Test26_PushReplicateWithAttachment.m in Sources */,
+				BFB66F1C1C499B680046FF6E /* Test28_KeySizes.m in Sources */,
+				BFB66F1D1C499B680046FF6E /* Test29_AllDocQuery.m in Sources */,
+				BFB66F1E1C499B680046FF6E /* Test30_LiveQuery.m in Sources */,
+				BFB66F1F1C499B680046FF6E /* Test31_PullReplicationHighRevs.m in Sources */,
+				BFB66F201C499B680046FF6E /* Test1_CreateDocs.m in Sources */,
+				BFB66F211C499B680046FF6E /* Test2_CreateDocsUnoptimizedWay.m in Sources */,
+				BFB66F221C499B680046FF6E /* Test3_CreateDocsWithAttachments.m in Sources */,
+				BFB66F231C499B680046FF6E /* Test8_DocRevisions.m in Sources */,
+				BFB66F241C499B680046FF6E /* Test10_DeleteDB.m in Sources */,
+				BFB66F251C499B680046FF6E /* Test11_DeleteDocs.m in Sources */,
+				BFB66F261C499B680046FF6E /* Test22_Query.m in Sources */,
+				BFB66F271C499B680046FF6E /* Test23_ReduceQuery.m in Sources */,
+				BFB66F281C499B680046FF6E /* Test21_Index.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB66EF51C4998BE0046FF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB66EFE1C4998BE0046FF6E /* HeadlessBee_AppletVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB66F001C4998BE0046FF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB66F091C4998BF0046FF6E /* HeadlessBee_AppletVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFAADF5F1C4CDBD4004CCF66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFAADF5B1C4CDBD4004CCF66 /* HeadlessBee-WatchOS Extension */;
+			targetProxy = BFAADF5E1C4CDBD4004CCF66 /* PBXContainerItemProxy */;
+		};
+		BFAADF701C4CDBD4004CCF66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFAADF4F1C4CDBD4004CCF66 /* HeadlessBee-WatchOS */;
+			targetProxy = BFAADF6F1C4CDBD4004CCF66 /* PBXContainerItemProxy */;
+		};
+		BFB66EFB1C4998BE0046FF6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB66EE31C4998BE0046FF6E /* HeadlessBee-AppletV */;
+			targetProxy = BFB66EFA1C4998BE0046FF6E /* PBXContainerItemProxy */;
+		};
+		BFB66F061C4998BF0046FF6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB66EE31C4998BE0046FF6E /* HeadlessBee-AppletV */;
+			targetProxy = BFB66F051C4998BF0046FF6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		27B28FAE14314FB800B86F18 /* InfoPlist.strings */ = {
@@ -555,6 +1071,22 @@
 				27B28FAF14314FB800B86F18 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFAADF521C4CDBD4004CCF66 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFAADF531C4CDBD4004CCF66 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		BFB66EEF1C4998BE0046FF6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB66EF01C4998BE0046FF6E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -645,6 +1177,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = "-Wall";
@@ -673,6 +1206,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "16CBA82F-0A2E-49BF-9990-0AAF99C1ADEB";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -739,6 +1273,358 @@
 			};
 			name = Release;
 		};
+		BFAADF731C4CDBD4004CCF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "HeadlessBee-WatchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.couchbase.Worker-Bee.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		BFAADF741C4CDBD4004CCF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "HeadlessBee-WatchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.couchbase.Worker-Bee.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		BFAADF771C4CDBD4004CCF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IBSC_MODULE = HeadlessBee_WatchOS_Extension;
+				INFOPLIST_FILE = "HeadlessBee-WatchOS/Info.plist";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.couchbase.Worker-Bee.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		BFAADF781C4CDBD4004CCF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IBSC_MODULE = HeadlessBee_WatchOS_Extension;
+				INFOPLIST_FILE = "HeadlessBee-WatchOS/Info.plist";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.couchbase.Worker-Bee.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		BFB66F0B1C4998BF0046FF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "HeadlessBee-AppletV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashvinder.edu.HeadlessBee-AppletV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		BFB66F0C1C4998BF0046FF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "HeadlessBee-AppletV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashvinder.edu.HeadlessBee-AppletV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		BFB66F0D1C4998BF0046FF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "HeadlessBee-AppletVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashvinder.edu.HeadlessBee-AppletVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadlessBee-AppletV.app/HeadlessBee-AppletV";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		BFB66F0E1C4998BF0046FF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "HeadlessBee-AppletVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashvinder.edu.HeadlessBee-AppletVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadlessBee-AppletV.app/HeadlessBee-AppletV";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		BFB66F0F1C4998BF0046FF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "HeadlessBee-AppletVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashvinder.edu.HeadlessBee-AppletVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_TARGET_NAME = "HeadlessBee-AppletV";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BFB66F101C4998BF0046FF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "HeadlessBee-AppletVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashvinder.edu.HeadlessBee-AppletVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_TARGET_NAME = "HeadlessBee-AppletV";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -765,6 +1651,51 @@
 			buildConfigurations = (
 				27B28FCF14314FB900B86F18 /* Debug */,
 				27B28FD014314FB900B86F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAADF721C4CDBD4004CCF66 /* Build configuration list for PBXNativeTarget "HeadlessBee-WatchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAADF731C4CDBD4004CCF66 /* Debug */,
+				BFAADF741C4CDBD4004CCF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAADF761C4CDBD4004CCF66 /* Build configuration list for PBXNativeTarget "HeadlessBee-WatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAADF771C4CDBD4004CCF66 /* Debug */,
+				BFAADF781C4CDBD4004CCF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB66F111C4998BF0046FF6E /* Build configuration list for PBXNativeTarget "HeadlessBee-AppletV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB66F0B1C4998BF0046FF6E /* Debug */,
+				BFB66F0C1C4998BF0046FF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB66F121C4998BF0046FF6E /* Build configuration list for PBXNativeTarget "HeadlessBee-AppletVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB66F0D1C4998BF0046FF6E /* Debug */,
+				BFB66F0E1C4998BF0046FF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB66F131C4998BF0046FF6E /* Build configuration list for PBXNativeTarget "HeadlessBee-AppletVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB66F0F1C4998BF0046FF6E /* Debug */,
+				BFB66F101C4998BF0046FF6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

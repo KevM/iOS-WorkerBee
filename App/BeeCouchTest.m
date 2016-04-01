@@ -31,7 +31,8 @@
 - (CBLManager*) manager {
     if (!_manager) {
         //Uncomment the following 2 lines to run ForestDB
-        [[NSUserDefaults standardUserDefaults] setValue:@"ForestDB" forKey:@"CBLStorageType"];
+        [[NSUserDefaults standardUserDefaults] setValue:@"SQLite" forKey:@"CBLStorageType"];
+        //[[NSUserDefaults standardUserDefaults] setValue:@"ForestDB" forKey:@"CBLStorageType"];
         [[NSUserDefaults standardUserDefaults] synchronize];
         _manager = [[CBLManager alloc] init];
     }

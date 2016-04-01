@@ -27,7 +27,13 @@ NSUInteger sCount;
 
 + (CBLDatabase*) database {
     if (!sDatabase) {
-        sDatabase = [[CBLManager sharedInstance] databaseNamed: @"workerbee-tests" error: NULL];
+        NSError* error;
+        [CBLManager enableLogging:@"CBLDatabase"];
+        CBLManager* man = [CBLManager sharedInstance];
+        sDatabase = [man databaseNamed: @"workerbee-tests" error: &error];
+        if (!sDatabase) {
+            NSLog(@"Canot get the SavedTestRun database: %@", error);
+        }
         sCount = [sDatabase documentCount];
     }
     return sDatabase;
@@ -93,13 +99,13 @@ NSUInteger sCount;
 + (NSDictionary*) deviceInfo {
     NSProcessInfo* procInfo = [NSProcessInfo processInfo];
     UIDevice* deviceInfo = [UIDevice currentDevice];
-    deviceInfo.batteryMonitoringEnabled = YES;
+    //deviceInfo.batteryMonitoringEnabled = YES;
     return @{@"name": deviceInfo.name,
              @"model": [self deviceModelID],
              @"system": deviceInfo.systemVersion,
              @"identifier": deviceInfo.identifierForVendor.UUIDString,
-             @"batteryState": [NSNumber numberWithInt: deviceInfo.batteryState],
-             @"batteryLevel": @(deviceInfo.batteryLevel),
+             //@"batteryState": [NSNumber numberWithInt: deviceInfo.batteryState],
+             //@"batteryLevel": @(deviceInfo.batteryLevel),
              @"uptime": @(procInfo.systemUptime),
              @"64bit_process": [NSNumber numberWithBool: sizeof(void*) > 32],
 #if USE_CLOCK_SPEED
